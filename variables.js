@@ -1,18 +1,42 @@
 const navegacion = [
 	{
-		name: "Home",
+		name: "Inicio",
 		url: "./index.html",
 	},
 	{
-		name: "Products",
+		name: "Acerca de Nosotros:",
 		url: "./index.html",
 	},
 	{
-		name: "About Us",
+		name: "Nuestros Programas",
 		url: "./index.html",
 	},
 	{
-		name: "Contact Us",
+		name: "Cómo Ayudar",
+		url: "./index.html",
+	},
+	{
+		name: "Galería de Fotos",
+		url: "./index.html",
+	},
+	{
+		name: "Blog",
+		url: "./index.html",
+	},
+	{
+		name: "Eventos",
+		url: "./index.html",
+	},
+	{
+		name: "Contáctenos",
+		url: "./index.html",
+	},
+	{
+		name: "Página de Donaciones:",
+		url: "./index.html",
+	},
+	{
+		name: "Preguntas Frecuentes (FAQ)",
 		url: "./index.html",
 	},
 ];
@@ -33,7 +57,6 @@ const input = [
 		required: "required",
 	},
 ];
-
 
 const phones = [
 	{
@@ -64,10 +87,26 @@ const footerNavegacion = [
 	},
 ];
 
+const galery = [
+	{
+		url: "https://acoes.org/wp-content/uploads/2021/09/banner-home-2.png",
+	},
+	{
+		url: "https://acoes.org/wp-content/uploads/2021/09/20210216_082641.jpg",
+	},
+	{
+		url: "https://acoes.org/wp-content/uploads/2023/01/Buena_Vista-movil.jpg",
+	},
+	{
+		url: "https://acoes.org/wp-content/uploads/2021/09/Sin-titulo-1_0000_IMG_7486_joaquin-roldan.png",
+	},
+];
+
 const handlerBarsContext = {
 	"/index.html": {
 		// title: "Bakery Landing Page",
-		navegacion: navegacion,  
+		navegacion: navegacion,
+		galery: galery,
 		input: input,
 		phones: phones,
 		footerNavegacion: footerNavegacion,
