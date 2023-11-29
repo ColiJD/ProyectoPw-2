@@ -1,0 +1,19 @@
+<header>
+	<input type="checkbox" id="check" />
+	<label class="hamburger" for="check">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+	<section class="branding">
+		<img src="https://picsum.photos/id/1062/64/64" alt="logo" />
+		<h1>Bakery</h1>
+	</section>
+	<nav>
+		<ul>
+			{{#each navegacion}}
+				<li><a href={{url}}>{{name}}</a></li>
+			{{/each}}
+		</ul>
+	</nav>
+</header>

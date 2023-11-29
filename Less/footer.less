@@ -1,0 +1,43 @@
+footer {
+	.flexing();
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	padding: 1rem;
+	width: 100%;
+	background-color: @secondary-tx-color;
+	color: @primary-tx-color;
+	nav ul {
+		.flexing();
+		flex-direction: column;
+		.no-padding-margin();
+		list-style: none;
+		width: 100%;
+		li {
+			width: 100%;
+		}
+	}
+	p {
+		flex: 1 0 100%;
+		text-align: center;
+	}
+	.phones,
+	nav {
+		flex: 1 0 50%;
+	}
+	.phones {
+		align-self: flex-start;
+		text-align: right;
+	}
+	a {
+		display: block;
+		padding: 0.5rem 0.5rem;
+		text-decoration: none;
+		color: @primary-tx-color;
+	}
+	p,
+	.phones,
+	nav {
+		flex: 1 0 25%;
+		text-align: center;
+	}
+}
