@@ -1,27 +1,37 @@
 footer {
-	.flexing();
+	display: flex;
 	flex-direction: row-reverse;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	padding: 1rem;
 	width: 100%;
-	background-color: @secondary-tx-color;
-	color: @primary-tx-color;
-	nav ul {
-		.flexing();
-		flex-direction: column;
-		.no-padding-margin();
-		list-style: none;
-		width: 100%;
-		li {
-			width: 100%;
-		}
-	}
+	background-color: #000;
+	color: #fff;
+
 	p {
 		flex: 1 0 100%;
 		text-align: center;
 	}
-	.phones,
+
 	nav {
+		ul {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			width: 100%;
+
+			li {
+				width: 100%;
+			}
+		}
+	}
+	footer .phones,
+	footer nav {
 		flex: 1 0 50%;
 	}
 	.phones {
@@ -32,12 +42,23 @@ footer {
 		display: block;
 		padding: 0.5rem 0.5rem;
 		text-decoration: none;
-		color: @primary-tx-color;
+		color: #fff;
 	}
-	p,
-	.phones,
-	nav {
-		flex: 1 0 25%;
-		text-align: center;
+}
+@media (min-width: 720px) {
+	footer {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+
+		footer p,
+		footer .phones,
+		footer nav {
+			flex: 1 0 25%;
+			text-align: center;
+		}
 	}
+}
+img {
+	width: 100%;
 }
