@@ -39,7 +39,7 @@ export const btnApadrina = [
 export const navegacion = [
 	{
 		name: "Inicio",
-		url: "/",
+		url: "/ProyectoPw-2/",
 	},
 	{
 		name: "Acerca de Nosotros:",
