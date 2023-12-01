@@ -39,43 +39,43 @@ export const btnApadrina = [
 export const navegacion = [
 	{
 		name: "Inicio",
-		url: "../index.html",
+		url: "/",
 	},
 	{
 		name: "Acerca de Nosotros:",
-		url: "../index.html",
+		url: "/index.html",
 	},
 	{
 		name: "Nuestros Programas",
-		url: "./index.html",
+		url: "/index.html",
 	},
 	{
 		name: "Cómo Ayudar",
-		url: "./index.html",
+		url: "/index.html",
 	},
 	{
 		name: "Galería de Fotos",
-		url: "./index.html",
+		url: "/index.html",
 	},
 	{
 		name: "Blog",
-		url: "./index.html",
+		url: "/index.html",
 	},
 	{
 		name: "Eventos",
-		url: "./index.html",
+		url: "/index.html",
 	},
 	{
 		name: "Contáctenos",
-		url: "./index.html",
+		url: "/index.html",
 	},
 	{
 		name: "Página de Donaciones:",
-		url: "./page/donaciones.html",
+		url: "/ProyectoPw-2/page/donaciones.html",
 	},
 	{
 		name: "Preguntas Frecuentes (FAQ)",
-		url: "./index.html",
+		url: "/index.html",
 	},
 ];
 
