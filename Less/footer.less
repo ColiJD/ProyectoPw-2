@@ -1,64 +1,106 @@
 footer {
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
+	height: 100vh;
+	background-color: @secondary-bg-color;
+	color: @secondary-tx-color;
+
+	.no-padding-margin();
 	width: 100%;
-	background-color: #000;
-	color: #fff;
-
-	p {
-		flex: 1 0 100%;
-		text-align: center;
-	}
-
-	nav {
-		ul {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			padding: 0;
-			margin: 0;
-			list-style: none;
+	.footer_container {
+		background-color: @primary-bg-color;
+		display: flex;
+		flex-direction: column;
+		p {
 			width: 100%;
+			text-align: center;
+			font-size: 1.5rem;
 
-			li {
-				width: 100%;
+		}
+		.container {
+			padding: 0 0.75rem;
+			.flexing();
+			flex-direction: row-reverse;
+			flex-wrap: wrap;
+			.phones {
+				display: flex;
+				flex-direction: column;
+				margin: 1.2rem auto;
+				a {
+					text-decoration: none;
+					font-size: 1.2rem;
+					color: @secondary-tx-color;
+					line-height: 1.2;
+				}
+			}
+			nav {
+				ul {
+					.no-padding-margin();
+					li {
+						list-style: none;
+						line-height: 1.2;
+						a {
+							text-decoration: none;
+							font-size: 1.2rem;
+							color: @secondary-tx-color;
+						}
+					}
+				}
 			}
 		}
 	}
-	footer .phones,
-	footer nav {
-		flex: 1 0 50%;
-	}
-	.phones {
-		align-self: flex-start;
-		text-align: right;
-	}
-	a {
-		display: block;
-		padding: 0.5rem 0.5rem;
-		text-decoration: none;
-		color: #fff;
-	}
-}
-@media (min-width: 720px) {
-	footer {
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: flex-start;
+	.footer_redes {
+		width: 100%;
+		text-align: center;
+		background-color: @secondary-bg-color;
+		color: @primary-tx-color;
+		h2 {
+			.titulos();
+			border-bottom: 2px solid @primary-bg-color;
+		}
+		ul {
+			.flexing();
+			flex-wrap: wrap;
+			.no-padding-margin();
+			li {
+				list-style: none;
+				a {
+					margin: 0.75rem;
+					color: @primary-tx-color;
+					border-radius: 50%;
+					transition: all 0.75s ease-in;
+					cursor: pointer;
 
-		footer p,
-		footer .phones,
-		footer nav {
-			flex: 1 0 25%;
-			text-align: center;
+					&:hover {
+						background-color: @primary-tx-color;
+						color: @secondary-bg-color;
+					}
+				}
+			}
+		}
+		span {
+			color: @primary-tx-color;
+			font-size: 1.5rem;
+			font-style: italic;
 		}
 	}
 }
-img {
-	width: 100%;
+@media screen and (min-width: 720px) {
+	footer {
+		display: flex;
+		.footer_container{
+			.flexing();
+			.container{
+				nav{
+					ul{
+						li{
+							line-height: 1.5;
+						}
+					}
+				}
+			}
+		}
+		.footer_redes {
+			.flexing();
+			flex-direction: column;
+		}
+	}
 }

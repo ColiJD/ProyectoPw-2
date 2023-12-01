@@ -1,0 +1,17 @@
+<section class="generalidades_Content">
+	{{#each generalidades}}
+		<div class="generalidades">
+			<h2>{{titulo}}</h2>
+			<p>{{parrafo}}</p>
+		</div>
+	{{/each}}
+	<div class="info_conteiner">
+		{{#each generalidadesInfo}}
+			<div class="generalidades_info">
+				<img src={{urlImg}} alt={{alt}} />
+				<span>{{subtitulo}}</span>
+				<a href={{link}}>Ver</a>
+			</div>
+		{{/each}}
+	</div>
+</section>
