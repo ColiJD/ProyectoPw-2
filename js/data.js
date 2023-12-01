@@ -1,11 +1,49 @@
+export const card = [
+	{
+		urlImg: "https://acoes.org/dona/img/sancristobal.jpg",
+		alt: "descripcion de la img",
+		titulo: "Haz un donativo",
+		parrafo:
+			"Tu ayuda nos permite construir escuelas, comprar comida y medicamentos, pagar a los profesores, etc.",
+		urlButton: "#",
+		titleBtn: "HAZ UN DONATIVO",
+	},
+	{
+		urlImg: "https://acoes.org/dona/img/sancristobal.jpg",
+		alt: "descripcion de la img",
+		titulo: "Apadrina un niño",
+		parrafo:
+			"Desde 18 euros al mes puedes hacer que un niño o niña pueda ir a la escuela. Con ese dinero, ACOES BECA a un niño/a y le compra uniforme, mochila, zapatos y material escolar para ir a la escuela. Después tu apadrinado te mandará las notas, una carta de agradecimiento y alguna foto.",
+		urlButton: "#",
+		titleBtn: "APADRINA UN NIÑO",
+	},
+];
+export const btnApadrina = [
+	{
+		url: "#",
+		title: "Apadrina un niño",
+	},
+	{
+		url: "#",
+		title: "Haz una donacion",
+	},
+	{
+		url: "#",
+		title: "Ayuda",
+	},
+	{
+		url: "#",
+		title: "Mas informacion",
+	},
+];
 export const navegacion = [
 	{
 		name: "Inicio",
-		url: "./index.html",
+		url: "../index.html",
 	},
 	{
 		name: "Acerca de Nosotros:",
-		url: "./index.html",
+		url: "../index.html",
 	},
 	{
 		name: "Nuestros Programas",
@@ -33,7 +71,7 @@ export const navegacion = [
 	},
 	{
 		name: "Página de Donaciones:",
-		url: "./index.html",
+		url: "./page/donaciones.html",
 	},
 	{
 		name: "Preguntas Frecuentes (FAQ)",
@@ -131,7 +169,7 @@ export const galery = [
 ];
 export const generalidades = [
 	{
-		titulo: "Mision",
+		titulo: "MISION",
 		parrafo:
 			"Promover y colaborar con iniciativas que tiendan a crear y desarrollar condiciones de vida que favorezcan la paz, la justicia, los derechos, la solidaridad y el desarrollo integral del ser humano en los sectores de población más desfavorecidos y marginados de Honduras y especialmente en la infancia, la juventud y las personas en situación de discapacidad, priorizando la educación como instrumento eficaz para el desarrollo.",
 	},
