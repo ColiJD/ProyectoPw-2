@@ -13,6 +13,9 @@ import {
 	teest,
 	preguntas,
 	galeria,
+	cardBlog,
+	eventsFuturos,
+	eventspasados,
 } from "./js/data";
 
 const handlerBarsContext = {
@@ -48,6 +51,7 @@ const handlerBarsContext = {
 		phones: phones,
 		footerNavegacion: footerNavegacion,
 		teest: teest,
+		redes: redes,
 	},
 	"/page/pfrecuentes.html": {
 		title: "Frecuentes",
@@ -59,6 +63,7 @@ const handlerBarsContext = {
 		footerNavegacion: footerNavegacion,
 		teest: teest,
 		preguntas: preguntas,
+		redes: redes,
 	},
 	"/page/comoayudar.html": {
 		title: "Como Ayudar",
@@ -77,6 +82,27 @@ const handlerBarsContext = {
 		phones: phones,
 		footerNavegacion: footerNavegacion,
 		galeria: galeria,
+		redes: redes,
+	},
+	"/page/blog.html": {
+		title: "Blog",
+		logo: "https://acoes.org/wp-content/uploads/2023/10/LG-FUNDACION-BN-2-2.png",
+		navegacion: navegacion,
+		card: card,
+		phones: phones,
+		footerNavegacion: footerNavegacion,
+		redes: redes,
+		cardBlog: cardBlog,
+	},
+	"/page/eventos.html": {
+		title: "Eventos",
+		logo: "https://acoes.org/wp-content/uploads/2023/10/LG-FUNDACION-BN-2-2.png",
+		navegacion: navegacion,
+		phones: phones,
+		footerNavegacion: footerNavegacion,
+		redes: redes,
+		eventspasados: eventspasados,
+		eventsFuturos: eventsFuturos,
 	},
 };
 
