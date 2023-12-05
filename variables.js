@@ -16,9 +16,9 @@ import {
 const handlerBarsContext = {
 	"/index.html": {
 		"nav":[
-            		{ nombre: "Inicio", url: "./index.html"},
-            		{ nombre: "Cómo Ayudar", url: "./comoayudar.html"},
-            		{ nombre: "Galería", url: "./galeria.html"},
+            		{ nombre: "Inicio", url: "../index.html"},
+            		{ nombre: "Cómo Ayudar", url: "./page/comoayudar.html"},
+            		{ nombre: "Galería", url: "./page/galeria.html"},
         	],
 		title: "Inicio",
 		logo: "https://acoes.org/wp-content/uploads/2023/10/LG-FUNDACION-BN-2-2.png",
@@ -44,17 +44,17 @@ const handlerBarsContext = {
 		footerNavegacion: footerNavegacion,
 		redes: redes,
 	},
-	--
+	
 	"/page/comoayudar.html": {
         	"nav":[
-            		{ nombre: "Inicio", url: "./index.html"},
+            		{ nombre: "Inicio", url: "../index.html"},
             		{ nombre: "Cómo Ayudar", url: "./comoayudar.html"},
             		{ nombre: "Galería", url: "./galeria.html"},
         	],
     	},
     	"/page/galeria.html": {
         	"nav":[
-            		{ nombre: "Inicio", url: "./index.html"},
+            		{ nombre: "Inicio", url: "../index.html"},
             		{ nombre: "Cómo Ayudar", url: "./comoayudar.html"},
             		{ nombre: "Galería", url: "./galeria.html"},
         	],
