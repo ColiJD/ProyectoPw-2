@@ -1,0 +1,14 @@
+<section class="cards">
+	{{#each card}}
+		<div class="cards_container">
+			<div class="cards_image">
+				<img src={{urlImg}} alt={{alt}} />
+			</div>
+			<div class="cards_info">
+				<h3>{{titulo}}</h3>
+				<p>{{parrafo}}</p>
+				<a href={{urlButton}}>{{titleBtn}}</a>
+			</div>
+		</div>
+	{{/each}}
+</section>

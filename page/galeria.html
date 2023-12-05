@@ -5,11 +5,17 @@
 		<link rel="icon" type="icon" href="{{logo}}" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{title}}</title>
-		<link rel="stylesheet" href="./Less/style.less" />
+		<link rel="stylesheet" href="../Less/style.less" />
 	</head>
+
 	<body>
 		{{>header}}
-		<main>{{>galery}} {{>generalidades}}{{>form}}</main>
-		{{>footer}}
+		<div class="img-inicial">
+			<h1>Galería</h1>
+		</div>
+		<div class="contenedor">
+			<div class="galeria">{{>galeriaDeFotos}}</div>
+		</div>
 	</body>
+	{{>footer}}
 </html>
