@@ -12,6 +12,7 @@ import {
 	btnApadrina,
 	teest,
 	preguntas,
+	galeria,
 } from "./js/data";
 
 const handlerBarsContext = {
@@ -58,6 +59,24 @@ const handlerBarsContext = {
 		footerNavegacion: footerNavegacion,
 		teest: teest,
 		preguntas: preguntas,
+	},
+	"/page/comoayudar.html": {
+		title: "Como Ayudar",
+		logo: "https://acoes.org/wp-content/uploads/2023/10/LG-FUNDACION-BN-2-2.png",
+		navegacion: navegacion,
+		galery: galery,
+		input: input,
+		phones: phones,
+		footerNavegacion: footerNavegacion,
+	},
+	"/page/galeria.html": {
+		title: "Galeria",
+		logo: "https://acoes.org/wp-content/uploads/2023/10/LG-FUNDACION-BN-2-2.png",
+		navegacion: navegacion,
+		galery: galery,
+		phones: phones,
+		footerNavegacion: footerNavegacion,
+		galeria: galeria,
 	},
 };
 
