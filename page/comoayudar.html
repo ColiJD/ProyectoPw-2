@@ -273,19 +273,19 @@
 									</td>
 								</tr>
 							</table>
-						</form>
 
-						<!--
+							<!--
                                 SCRIPT para validar terminos y condiciones
                             -->
-						<script>
-							document
-								.getElementById("agreeCheckbox")
-								.addEventListener("change", function () {
-									document.getElementById("submitBtn").disabled =
-										!this.checked;
-								});
-						</script>
+							<script>
+								document
+									.getElementById("agreeCheckbox")
+									.addEventListener("change", function () {
+										document.getElementById("submitBtn").disabled =
+											!this.checked;
+									});
+							</script>
+						</form>
 					</div>
 					<div class="aportbox">
 						<h2>Empresa Colaboradora</h2>
@@ -319,6 +319,6 @@
 				</div>
 			</div>
 		</div>
+		{{>footer}}
 	</body>
-	{{>footer}}
 </html>
