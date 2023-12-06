@@ -1,20 +1,17 @@
-<section id="nosotros">
+<section class="generalidades_Content">
 	{{#each generalidades}}
-	<div class="bg-white py-16 sm:py-16">
-		<div class="mx-auto max-w-7xl px-6 lg:px-8">
-			<div class="mx-auto max-w-2xl lg:mx-0">
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{titulo}}</h2>
-			</div>
-			<div
-				class="mx-auto mt-10 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none">
-				<article>
-					
-					<p class=" text-gray-600">
-							{{parrafo}}
-						</p>					
-				</article>
-			</div>
+		<div class="generalidades">
+			<h2>{{titulo}}</h2>
+			<p>{{parrafo}}</p>
 		</div>
-	</div>
 	{{/each}}
+	<div class="info_conteiner">
+		{{#each generalidadesInfo}}
+			<div class="generalidades_info">
+				<img src={{urlImg}} alt={{alt}} />
+				<span>{{subtitulo}}</span>
+				<a href={{link}}>Ver</a>
+			</div>
+		{{/each}}
+	</div>
 </section>
