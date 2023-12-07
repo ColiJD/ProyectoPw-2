@@ -43,7 +43,7 @@ export const navegacion = [
 	},
 	{
 		name: "Acerca de Nosotros:",
-		url: "/index.html",
+		url: "/ProyectoPw-2/page/acercaDeNosotros.html",
 	},
 	{
 		name: "Nuestros Programas",
@@ -67,7 +67,7 @@ export const navegacion = [
 	},
 	{
 		name: "Contáctenos",
-		url: "/index.html",
+		url: "/ProyectoPw-2/page/contactanos.html",
 	},
 	{
 		name: "Página de Donaciones:",
@@ -370,55 +370,87 @@ export const cardBlog = [
 ];
 export const eventspasados = [
 	{
-        name: 'Evento: PRESENTACIÓN DE LA RESIDENCIA ESTUDIANTIL POPULORUM SANTA MARTA',
-        formattedDate: '28 de agosto de 2023',
-        location: 'Ubicada en el centro de Tegucigalpa en el barrio La Ronda y a la que se conoce como Casa Casco.',
-        description: 'Construccion de Centros de estudio para estudiantes universitarios',
-        urlImg: 'https://acoes.org/wp-content/uploads/2023/08/Jovenes-de-la-resdiencia-estudiantil-Santa-Marta.png',
-        alt: 'Descripción de la imagen del Evento 1',
-    },
+		name: "Evento: PRESENTACIÓN DE LA RESIDENCIA ESTUDIANTIL POPULORUM SANTA MARTA",
+		formattedDate: "28 de agosto de 2023",
+		location:
+			"Ubicada en el centro de Tegucigalpa en el barrio La Ronda y a la que se conoce como Casa Casco.",
+		description: "Construccion de Centros de estudio para estudiantes universitarios",
+		urlImg: "https://acoes.org/wp-content/uploads/2023/08/Jovenes-de-la-resdiencia-estudiantil-Santa-Marta.png",
+		alt: "Descripción de la imagen del Evento 1",
+	},
 	{
-        name: 'Evento: BARRIOS ORQUESTADOS: LA SABIDURÍA DE LA MÚSICA QUE EDUCA A NIÑOS Y JÓVENES',
-        formattedDate: '25 de Agosto de 2023',
-        location: 'Teatro Manuel Bonilla.',
-        description: 'Concierto Solidario preparado por el proyecto Barrios Orquestados',
-        urlImg: 'https://acoes.org/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-16-at-18.37.12.jpeg',
-        alt: 'Descripción de la imagen del Evento 1',
-    },
+		name: "Evento: BARRIOS ORQUESTADOS: LA SABIDURÍA DE LA MÚSICA QUE EDUCA A NIÑOS Y JÓVENES",
+		formattedDate: "25 de Agosto de 2023",
+		location: "Teatro Manuel Bonilla.",
+		description: "Concierto Solidario preparado por el proyecto Barrios Orquestados",
+		urlImg: "https://acoes.org/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-16-at-18.37.12.jpeg",
+		alt: "Descripción de la imagen del Evento 1",
+	},
 	{
-        name: 'Evento: PLANTACIÓN DE ÁRBOLES EN EL CREMATORIO DE TEGUCIGALPA',
-        formattedDate: '12 y 13 de agosto de 2023',
-        location: 'Crematorio Municipal de Tegucigalpa.',
-        description: 'plantación de árboles en las inmediaciones la actividad se desarrollara desde las siete de la mañana.',
-        urlImg: 'https://acoes.org/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-14-at-18.22.39-3.jpeg',
-        alt: 'Descripción de la imagen del Evento 1',
-    },
-	    
+		name: "Evento: PLANTACIÓN DE ÁRBOLES EN EL CREMATORIO DE TEGUCIGALPA",
+		formattedDate: "12 y 13 de agosto de 2023",
+		location: "Crematorio Municipal de Tegucigalpa.",
+		description:
+			"plantación de árboles en las inmediaciones la actividad se desarrollara desde las siete de la mañana.",
+		urlImg: "https://acoes.org/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-14-at-18.22.39-3.jpeg",
+		alt: "Descripción de la imagen del Evento 1",
+	},
 ];
 export const eventsFuturos = [
 	{
-        name: 'Evento: LICITACIÓN PARA COMPRA DE ÚTILES ESCOLARES',
-        formattedDate: '15 de enero de 2024',
-        location: 'Escuela Santa Clara y Anexos.',
-        description: 'Entrega de complemetnos escolares a estudiantes: cuadernos, lápices y otros instrumentos de trabajo utilizados por los estudiantes en sus labores escolares.',
-        urlImg: 'https://acoes.org/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-15-at-21.31.45.jpeg',
-        alt: 'Descripción de la imagen del Evento 1',
-    },
+		name: "Evento: LICITACIÓN PARA COMPRA DE ÚTILES ESCOLARES",
+		formattedDate: "15 de enero de 2024",
+		location: "Escuela Santa Clara y Anexos.",
+		description:
+			"Entrega de complemetnos escolares a estudiantes: cuadernos, lápices y otros instrumentos de trabajo utilizados por los estudiantes en sus labores escolares.",
+		urlImg: "https://acoes.org/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-15-at-21.31.45.jpeg",
+		alt: "Descripción de la imagen del Evento 1",
+	},
 	{
-        name: 'Evento: PROYECTO FINANCIADO POR LA DIPUTACIÓN DE LA CORUÑA',
-        formattedDate: '2 de febrero de 2024',
-        location: 'Centro de Desarrollo San José, ubicado en el Barrio La Isla.',
-        description: 'Dar apoyo para lograr consolidar el programa educativo del centro, mejorar la alimentación y sensibilizar a las familias sobre la importancia de apoyar la educación y nutrición de sus hijos e hijas.',
-        urlImg: 'https://acoes.org/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-19-at-14.47.23-1024x682.jpeg',
-        alt: 'Descripción de la imagen del Evento 1',
-    },
+		name: "Evento: PROYECTO FINANCIADO POR LA DIPUTACIÓN DE LA CORUÑA",
+		formattedDate: "2 de febrero de 2024",
+		location: "Centro de Desarrollo San José, ubicado en el Barrio La Isla.",
+		description:
+			"Dar apoyo para lograr consolidar el programa educativo del centro, mejorar la alimentación y sensibilizar a las familias sobre la importancia de apoyar la educación y nutrición de sus hijos e hijas.",
+		urlImg: "https://acoes.org/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-19-at-14.47.23-1024x682.jpeg",
+		alt: "Descripción de la imagen del Evento 1",
+	},
 	{
-        name: 'Evento:LOS REYES MAGOS EN HONDURAS 2024',
-        formattedDate: '6 de enero de 2024',
-        location: 'Santa Maria, San Isidro y Santa Monica.',
-        description: 'La magia y la ilusión llegara a las colonias y centros educativos de la Asociación ACOES en Honduras de la mano de los Reyes Magos.',
-        urlImg: 'https://acoes.org/wp-content/uploads/2023/01/LOS-REYES-MAGOS.jpg',
-        alt: 'Descripción de la imagen del Evento 1',
-    },
-	    
+		name: "Evento:LOS REYES MAGOS EN HONDURAS 2024",
+		formattedDate: "6 de enero de 2024",
+		location: "Santa Maria, San Isidro y Santa Monica.",
+		description:
+			"La magia y la ilusión llegara a las colonias y centros educativos de la Asociación ACOES en Honduras de la mano de los Reyes Magos.",
+		urlImg: "https://acoes.org/wp-content/uploads/2023/01/LOS-REYES-MAGOS.jpg",
+		alt: "Descripción de la imagen del Evento 1",
+	},
+];
+export const nosotros = [
+	{
+		parafo1:
+			"Somos un gran grupo de personas que compartimos el deseo de disminuir las desigualdades de este mundo y en particular de Honduras. En el año 1992 nos empezamos a organizar para que nuestra labor fuera más efectiva y desde entonces hemos evolucionado creando diferentes grupos de personas, asociaciones, federaciones y por último la Fundación ACOES HONDURAS, siempre todas ellas con la misma misión.",
+		titulos: "MISIÓN",
+		parrafo2:
+			"Promover y colaborar con iniciativas que tiendan a crear y desarrollar condiciones de vida que favorezcan la paz, la justicia, los derechos, la solidaridad y el desarrollo integral del ser humano en los sectores de población más desfavorecidos y marginados de Honduras y especialmente en la infancia, la juventud y las personas en situación de discapacidad, priorizando la educación como instrumento eficaz para el desarrollo.",
+		img: "../img/acogida.jpg",
+		alt: "img",
+	},
+	{
+		parafo1:
+			"Somos un gran grupo de personas que compartimos el deseo de disminuir las desigualdades de este mundo y en particular de Honduras. En el año 1992 nos empezamos a organizar para que nuestra labor fuera más efectiva y desde entonces hemos evolucionado creando diferentes grupos de personas, asociaciones, federaciones y por último la Fundación ACOES HONDURAS, siempre todas ellas con la misma misión.",
+		titulos: "MISIÓN",
+		parrafo2:
+			"Promover y colaborar con iniciativas que tiendan a crear y desarrollar condiciones de vida que favorezcan la paz, la justicia, los derechos, la solidaridad y el desarrollo integral del ser humano en los sectores de población más desfavorecidos y marginados de Honduras y especialmente en la infancia, la juventud y las personas en situación de discapacidad, priorizando la educación como instrumento eficaz para el desarrollo.",
+		img: "../img/acogida.jpg",
+		alt: "img",
+	},
+	{
+		parafo1:
+			"Somos un gran grupo de personas que compartimos el deseo de disminuir las desigualdades de este mundo y en particular de Honduras. En el año 1992 nos empezamos a organizar para que nuestra labor fuera más efectiva y desde entonces hemos evolucionado creando diferentes grupos de personas, asociaciones, federaciones y por último la Fundación ACOES HONDURAS, siempre todas ellas con la misma misión.",
+		titulos: "MISIÓN",
+		parrafo2:
+			"Promover y colaborar con iniciativas que tiendan a crear y desarrollar condiciones de vida que favorezcan la paz, la justicia, los derechos, la solidaridad y el desarrollo integral del ser humano en los sectores de población más desfavorecidos y marginados de Honduras y especialmente en la infancia, la juventud y las personas en situación de discapacidad, priorizando la educación como instrumento eficaz para el desarrollo.",
+		img: "../img/acogida.jpg",
+		alt: "img",
+	},
 ];

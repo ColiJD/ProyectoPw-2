@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="icon" href="{{logo}}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{title}}</title>
+		<link rel="stylesheet" href="../Less/style.less" />
+	</head>
+	<body>
+		{{>header}}
+		<main>
+			<div class="img-inicial">
+				<h1>Contactanos</h1>
+			</div>
+			{{>form}}
+			<div class="ubicacion">
+				<h2 class="titulos">Ubicados</h2>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509.072117992648!2d-87.19598657513124!3d14.058423065434608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbd16ffba3ef1%3A0x250534a7524bd138!2sCCJ2%2C%20Tegucigalpa%2C%20Francisco%20Moraz%C3%A1n!5e0!3m2!1ses-419!2shn!4v1701908717391!5m2!1ses-419!2shn"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</main>
+		{{>footer}}
+	</body>
+</html>

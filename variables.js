@@ -16,6 +16,7 @@ import {
 	cardBlog,
 	eventsFuturos,
 	eventspasados,
+	nosotros,
 } from "./js/data";
 
 const handlerBarsContext = {
@@ -103,6 +104,25 @@ const handlerBarsContext = {
 		redes: redes,
 		eventspasados: eventspasados,
 		eventsFuturos: eventsFuturos,
+	},
+	"/page/acercaDeNosotros.html": {
+		title: "Nosotros",
+		logo: "https://acoes.org/wp-content/uploads/2023/10/LG-FUNDACION-BN-2-2.png",
+		navegacion: navegacion,
+		phones: phones,
+		footerNavegacion: footerNavegacion,
+		redes: redes,
+		nosotros: nosotros,
+	},
+	"/page/contactanos.html": {
+		title: "Contactanos",
+		logo: "https://acoes.org/wp-content/uploads/2023/10/LG-FUNDACION-BN-2-2.png",
+		navegacion: navegacion,
+		phones: phones,
+		footerNavegacion: footerNavegacion,
+		redes: redes,
+		input: input,
+		select: select,
 	},
 };
 
